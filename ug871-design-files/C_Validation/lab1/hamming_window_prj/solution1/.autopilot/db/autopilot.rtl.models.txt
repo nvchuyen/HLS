@@ -1,0 +1,3 @@
+hamming_window_mucud
+hamming_window_wibkb
+hamming_window

@@ -1,0 +1,50 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Admin' on host 'desktop-1h41fin' (Windows NT_amd64 version 6.2) on Wed Mar 10 14:04:06 +0700 2021
+INFO: [HLS 200-10] In directory 'E:/CMC/HLS2018/ug871-design-files/Introduction/lab3'
+INFO: [HLS 200-10] Opening project 'E:/CMC/HLS2018/ug871-design-files/Introduction/lab3/fir_prj'.
+INFO: [HLS 200-10] Adding design file 'fir.c' to the project
+INFO: [HLS 200-10] Adding test bench file 'fir_test.c' to the project
+INFO: [HLS 200-10] Adding test bench file 'out.gold.dat' to the project
+INFO: [HLS 200-10] Opening solution 'E:/CMC/HLS2018/ug871-design-files/Introduction/lab3/fir_prj/solution3'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-2'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'fir.c' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 103.109 ; gain = 17.812
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 103.109 ; gain = 17.812
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 104.125 ; gain = 18.828
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 104.379 ; gain = 19.082
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 125.594 ; gain = 40.297
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 125.594 ; gain = 40.297
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.163 seconds; current allocated memory: 76.828 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 1 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 77.110 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/c' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [HLS 200-111]  Elapsed time: 0.083 seconds; current allocated memory: 77.370 MB.
+INFO: [RTMG 210-278] Implementing memory 'fir_shift_reg_ram (RAM)' using distributed RAMs with power-on initialization.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 125.594 ; gain = 40.297
+INFO: [SYSC 207-301] Generating SystemC RTL for fir.
+INFO: [VHDL 208-304] Generating VHDL RTL for fir.
+INFO: [VLOG 209-307] Generating Verilog RTL for fir.
+INFO: [HLS 200-112] Total elapsed time: 5.068 seconds; peak allocated memory: 77.370 MB.

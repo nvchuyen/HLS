@@ -1,0 +1,21 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../fir_test.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'Admin' on host 'desktop-1h41fin' (Windows NT_amd64 version 6.2) on Wed Mar 10 10:57:18 +0700 2021
+INFO: [HLS 200-10] In directory 'E:/CMC/HLS2018/ug871-design-files/Introduction/lab3/fir_prj/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../fir.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'Admin' on host 'desktop-1h41fin' (Windows NT_amd64 version 6.2) on Wed Mar 10 10:57:22 +0700 2021
+INFO: [HLS 200-10] In directory 'E:/CMC/HLS2018/ug871-design-files/Introduction/lab3/fir_prj/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+Comparing against output data 
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

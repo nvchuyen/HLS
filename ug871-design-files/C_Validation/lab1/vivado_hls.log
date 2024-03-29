@@ -1,0 +1,14 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Admin' on host 'desktop-1h41fin' (Windows NT_amd64 version 6.2) on Wed Mar 10 14:51:46 +0700 2021
+INFO: [HLS 200-10] In directory 'E:/CMC/HLS2018/ug871-design-files/C_Validation/lab1'
+INFO: [HLS 200-10] Opening project 'E:/CMC/HLS2018/ug871-design-files/C_Validation/lab1/hamming_window_prj'.
+INFO: [HLS 200-10] Opening solution 'E:/CMC/HLS2018/ug871-design-files/C_Validation/lab1/hamming_window_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../hamming_window_test.c in debug mode
+   Compiling ../../../../hamming_window.c in debug mode
+   Generating csim.exe
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

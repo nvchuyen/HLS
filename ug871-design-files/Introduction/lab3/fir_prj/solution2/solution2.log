@@ -1,0 +1,98 @@
+==============================================================
+File generated on Wed Mar 10 11:31:34 +0700 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-2'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'fir.c' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 102.668 ; gain = 17.852
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 102.668 ; gain = 17.852
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 104.105 ; gain = 19.289
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 104.359 ; gain = 19.543
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 126.078 ; gain = 41.262
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 126.078 ; gain = 41.262
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.132 seconds; current allocated memory: 76.636 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 1 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.071 seconds; current allocated memory: 76.907 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/c' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 77.205 MB.
+INFO: [RTMG 210-278] Implementing memory 'fir_shift_reg_ram (RAM)' using distributed RAMs with power-on initialization.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 126.078 ; gain = 41.262
+INFO: [SYSC 207-301] Generating SystemC RTL for fir.
+INFO: [VHDL 208-304] Generating VHDL RTL for fir.
+INFO: [VLOG 209-307] Generating Verilog RTL for fir.
+INFO: [HLS 200-112] Total elapsed time: 4.998 seconds; peak allocated memory: 77.205 MB.
+==============================================================
+File generated on Wed Mar 10 11:42:32 +0700 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-2'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'fir.c' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 103.090 ; gain = 18.586
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 103.090 ; gain = 18.586
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 104.133 ; gain = 19.629
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 104.391 ; gain = 19.887
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 126.238 ; gain = 41.734
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 126.238 ; gain = 41.734
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fir' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 4.132 seconds; current allocated memory: 76.843 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 1 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.042 seconds; current allocated memory: 77.126 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/y' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/c' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fir/x' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fir' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [HLS 200-111]  Elapsed time: 0.081 seconds; current allocated memory: 77.385 MB.
+INFO: [RTMG 210-278] Implementing memory 'fir_shift_reg_ram (RAM)' using distributed RAMs with power-on initialization.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 126.238 ; gain = 41.734
+INFO: [SYSC 207-301] Generating SystemC RTL for fir.
+INFO: [VHDL 208-304] Generating VHDL RTL for fir.
+INFO: [VLOG 209-307] Generating Verilog RTL for fir.
+INFO: [HLS 200-112] Total elapsed time: 5.01 seconds; peak allocated memory: 77.385 MB.

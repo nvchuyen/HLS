@@ -1,0 +1,92 @@
+==============================================================
+File generated on Wed Mar 10 14:24:54 +0700 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [Common 17-206] Exiting vivado_hls at Wed Mar 10 14:25:02 2021...
+==============================================================
+File generated on Wed Mar 10 14:36:08 +0700 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'hamming_window.c' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 104.895 ; gain = 20.113
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 104.895 ; gain = 20.113
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 261.629 ; gain = 176.848
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 270.664 ; gain = 185.883
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 322.543 ; gain = 237.762
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 322.543 ; gain = 237.762
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'hamming_window' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'hamming_window' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 6.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 8.952 seconds; current allocated memory: 260.390 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.062 seconds; current allocated memory: 260.518 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'hamming_window' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'hamming_window/outdata' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'hamming_window/indata' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'hamming_window' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'hamming_window_window_coeff' to 'hamming_window_wibkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'hamming_window_mul_mul_14ns_16s_30_3_1' to 'hamming_window_mucud' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'hamming_window_mucud': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'hamming_window'.
+INFO: [HLS 200-111]  Elapsed time: 0.119 seconds; current allocated memory: 260.829 MB.
+INFO: [RTMG 210-279] Implementing memory 'hamming_window_wibkb_rom' using auto ROMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 322.543 ; gain = 237.762
+INFO: [SYSC 207-301] Generating SystemC RTL for hamming_window.
+INFO: [VHDL 208-304] Generating VHDL RTL for hamming_window.
+INFO: [VLOG 209-307] Generating Verilog RTL for hamming_window.
+INFO: [HLS 200-112] Total elapsed time: 9.962 seconds; peak allocated memory: 260.829 MB.
+==============================================================
+File generated on Wed Mar 10 14:48:08 +0700 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+File generated on Wed Mar 10 14:51:46 +0700 2021
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7k160tfbg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

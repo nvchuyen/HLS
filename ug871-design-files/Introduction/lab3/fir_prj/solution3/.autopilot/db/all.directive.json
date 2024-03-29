@@ -1,0 +1,22 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "fir",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "RESOURCE",
+            "option": [
+              {
+                "name": "variable",
+                "value": "c",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "core",
+                "value": "RAM_1P_BRAM"
+              }
+            ]
+          }
+        }]
+    }]}

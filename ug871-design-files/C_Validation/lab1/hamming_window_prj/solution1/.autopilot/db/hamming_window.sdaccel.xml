@@ -1,0 +1,147 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'hamming_window'" level="0">
+<item name = "Date">Wed Mar 10 14:36:17 2021
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">hamming_window_prj</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">kintex7</item>
+<item name = "Target device">xc7k160tfbg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Target clock period (ns)">5.00</item>
+<item name = "Clock uncertainty (ns)">0.62</item>
+<item name = "Estimated clock period (ns)">3.490</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">262, 262, 262, 262, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">260, 260, 6, 1, 1, 256, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, 1, -, -</column>
+<column name="Expression">-, -, 0, 41</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">-, -, -, -</column>
+<column name="Memory">1, -, 0, 0</column>
+<column name="Multiplexer">-, -, -, 48</column>
+<column name="Register">0, -, 216, 64</column>
+<specialColumn name="Available">650, 600, 202800, 101400</specialColumn>
+<specialColumn name="Utilization (%)">~0, ~0, ~0, ~0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+<column name="hamming_window_mucud_U1">hamming_window_mucud, i0 * i1</column>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="window_coeff_U">hamming_window_wibkb, 1, 0, 0, 256, 14, 1, 3584</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_1_fu_96_p2">+, 0, 0, 16, 9, 1</column>
+<column name="tmp_fu_90_p2">icmp, 0, 0, 13, 9, 10</column>
+<column name="ap_enable_pp0">xor, 0, 0, 6, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">xor, 0, 0, 6, 2, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">21, 4, 1, 4</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter5">9, 2, 1, 2</column>
+<column name="i_reg_79">9, 2, 9, 18</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">3, 0, 3, 0</column>
+<column name="ap_enable_reg_pp0_iter0">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter5">1, 0, 1, 0</column>
+<column name="i_reg_79">9, 0, 9, 0</column>
+<column name="indata_load_reg_153">16, 0, 16, 0</column>
+<column name="tmp_1_reg_133">9, 0, 64, 55</column>
+<column name="tmp_4_reg_168">30, 0, 30, 0</column>
+<column name="tmp_reg_124">1, 0, 1, 0</column>
+<column name="window_coeff_load_reg_148">14, 0, 14, 0</column>
+<column name="tmp_1_reg_133">64, 32, 64, 55</column>
+<column name="tmp_reg_124">64, 32, 1, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, hamming_window, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, hamming_window, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, hamming_window, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, hamming_window, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, hamming_window, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, hamming_window, return value</column>
+<column name="outdata_address0">out, 8, ap_memory, outdata, array</column>
+<column name="outdata_ce0">out, 1, ap_memory, outdata, array</column>
+<column name="outdata_we0">out, 1, ap_memory, outdata, array</column>
+<column name="outdata_d0">out, 32, ap_memory, outdata, array</column>
+<column name="indata_address0">out, 8, ap_memory, indata, array</column>
+<column name="indata_ce0">out, 1, ap_memory, indata, array</column>
+<column name="indata_q0">in, 16, ap_memory, indata, array</column>
+</table>
+</item>
+</section>
+
+<section name = "Critical Path" level="0">
+<item name = "Max Delay">3.49</item>
+<item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
+<keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
+<column name="'tmp_2_cast', hamming_window.c:63">zext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_4', hamming_window.c:63">mul, 3.49, 3.49, -, -, -, -, -, -, -, -, -, -, -</column>
+</table>
+</item>
+</section>
+</profile>
